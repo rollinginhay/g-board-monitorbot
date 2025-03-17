@@ -33,6 +33,6 @@ bot:
 ## Commands
 
 * ping: pong!
-* posts: manually trigger report once
+* posts: manually trigger report once (does not cache)
 * stop: stop scheduled reporting
 * start: restart scheduled reporting
