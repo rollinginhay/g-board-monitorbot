@@ -1,0 +1,7 @@
+bot:
+  config:
+    token: DISCORD_TOKEN
+    report-channel: REPORT_CHANNEL_ID
+    thread-rep-threshold: 200
+    post-rep-threshold: 50
+    schedule-delay: 600000

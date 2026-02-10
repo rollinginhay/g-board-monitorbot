@@ -5,10 +5,9 @@ target/
 !**/src/test/**/target/
 
 ###IGNORE APP CONFIG
-src/main/resources/application.yml
+src/main/resources/application.real.yml
 out
 .railway/
-application.yml
 ###IGNORE TESTS###
 src/test/java/mtt/monitorbotd4j/*
 
