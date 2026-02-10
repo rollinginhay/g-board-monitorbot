@@ -1,0 +1,26 @@
+# Ignore build artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE files
+.idea/
+*.iml
+.vscode/
+.eclipse/
+.settings/
+
+# Ignore Git
+.git/
+.gitignore
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore logs and temp files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore test files during build
+src/test/
