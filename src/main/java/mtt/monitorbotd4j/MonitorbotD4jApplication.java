@@ -9,13 +9,11 @@ import discord4j.core.object.presence.ClientPresence;
 import discord4j.gateway.intent.Intent;
 import discord4j.gateway.intent.IntentSet;
 import discord4j.rest.RestClient;
-import io.github.cdimascio.dotenv.Dotenv;
 import mtt.monitorbotd4j.entities.processed.FilteredThread;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.concurrent.TimeUnit;
 

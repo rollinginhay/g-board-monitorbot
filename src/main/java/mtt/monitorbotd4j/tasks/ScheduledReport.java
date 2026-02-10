@@ -46,7 +46,7 @@ public class ScheduledReport implements Logging {
 
     //request and process threads
     //send embeds to bot
-    @Scheduled(fixedDelayString = "${bot.config.schedule-delay}", initialDelay = 60000)
+    @Scheduled(fixedDelayString = "${bot.config.schedule-delay}", initialDelay = 6000)
     private void execute() {
         LOGGER.info("Scheduled reporting triggered");
         Mono.fromCallable(() -> {
