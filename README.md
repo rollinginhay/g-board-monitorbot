@@ -36,3 +36,9 @@ bot:
 * posts: manually trigger report once (does not cache)
 * stop: stop scheduled reporting
 * start: restart scheduled reporting
+
+## Deployment
+
+Supports Docker deployment.
+
+This app is deployed on Railway. Set REPORT_CHANNEL_ID and DISCORD_TOKEN service variables on Railway UI
